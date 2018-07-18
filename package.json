@@ -1,0 +1,24 @@
+{
+  "name": "barbershop",
+  "version": "1.0.0",
+  "description": "Create barbershop website from psd template",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uanoob/barbershop.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "psd"
+  ],
+  "author": "uanoob",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uanoob/barbershop/issues"
+  },
+  "homepage": "https://github.com/uanoob/barbershop#readme"
+}
