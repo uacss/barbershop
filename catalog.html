@@ -34,7 +34,9 @@
         </li>
       </ul>
       <ul class="user-navigation">
-        <li class="login-link">Вход</li>
+        <li class="login-link">
+          <a href="login.html" class="login-link">Вход</a>
+        </li>
       </ul>
     </nav>
 
@@ -190,10 +192,11 @@
 
   <footer class="main-footer">
     <p class="footer-contacts">
-      Барбершоп «Бородинский»<br>
-      Адрес: Адрес: г.Санкт-Петербург, б.Конюшенная, д.19/8<br>
-      <a href="map.html">Как нас найти?</a><br>
-      Телефон: +12 (345) 777-55-55
+      Барбершоп «Бородинский»
+      <br> Адрес: Адрес: г.Санкт-Петербург, б.Конюшенная, д.19/8
+      <br>
+      <a href="map.html">Как нас найти?</a>
+      <br> Телефон: +12 (345) 777-55-55
     </p>
     <div class="footer-social">
       <b>Давайте Дружить!</b>
@@ -218,8 +221,26 @@
   <section class="modal modal-login">
     <h2>Личный кабинет</h2>
     <p>Введите пожалуйста свой логин и пароль</p>
-    <!-- TODO form -->
-    <span class="modal-close">x</span>
+    <form class="login-form" action="https://echo.htmlacademy.ru" method="POST">
+      <p>
+        <label class="visually-hidden" for="user-login">Логин</label>
+        <input class="login-icon__user" id="user-login" type="text" name="login" placeholder="Логин">
+      </p>
+      <p>
+        <label class="visually-hidden" for="user-password">Пароль</label>
+        <input class="login-icon__password" id="user-password" type="password" name="password" placeholder="Пароль">
+      </p>
+      <p class="login-password__info">
+        <label class="login-checkbox">
+          <input class="visually-hidden" type="checkbox" name="remember">
+          <span class="checkbox-indicator"></span>
+          Запомните меня
+        </label>
+        <a class="restore" href="#">Я забыл пароль</a>
+      </p>
+      <button class="button" type="submit">Войти</button>
+    </form>
+    <button class="modal-close" type="button">Закрыть</button>
   </section>
 
 
